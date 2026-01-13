@@ -11,7 +11,7 @@ public class Calculator{
 		int result = multiply(5, 4);
 		System.out.println(result);
 		
-		int result1 = multiply(10, 5);
+		int result1 = add(10, 5);
 		System.out.println(result1);
 	}
 }
