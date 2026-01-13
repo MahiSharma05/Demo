@@ -11,6 +11,9 @@ public class Calculator{
 	public static int divide(int a, int b) {
 		return a/b;
 	}
+	public static int subtract(int a, int b) {
+		return a-b;
+	}
 	public static void main(String[] args) {
 		int result = multiply(5, 4);
 		System.out.println(result);
@@ -20,5 +23,8 @@ public class Calculator{
 		
 		int result2 = divide(10, 5);
 		System.out.println(result2);
+		
+		int result3 = subtract(10, 5);
+		System.out.println(result3);
 	}
 }
